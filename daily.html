@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>StarChannel</title>
-    <link rel="icon" href="img/starchannel_logo.png">
-
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="icon" href="/img/starchannel_logo.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -15,578 +13,717 @@
 </head>
 
 <body>
-
     <!--Header Starts Here -->
-    <header class="container-fluid ">
+    <header class="container-fluid">
         <div id="menu-jk" class="header-bottom">
             <div class="container-fluid">
-                <div class="row nav-row">
-                    <div class="col-md-3 logo">
-                        <a href="index.html"><img src="img/logo.png" alt=""
-                                style="width: 80%;margin-left: 36px; margin-top: 12px;"></a>
-                    </div>
-                    <div class="col-md-9 nav-col">
-                        <nav class="navbar navbar-expand-lg navbar-light" style="float:right;">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">ပင်မစာမျက်နှာ
-                                        </a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="daily.html">နေ့စဉ်သတင်းများ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="popular.html">ပေါ်ပြူလာ ဗွီဒီယိုများ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="movie.html">ရုပ်ရှင်များ</a>
-                                    </li>
-                                    <!-- <li class="nav-item">
-                                        <a class="nav-link" href="videos.html">တီဗွီလိုင်းများ</a>
-                                    </li> -->
-                                    <li class="dropdown">
-                                        <button class="btn dropdown-toggle" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                            style="border: 0px;background-color: #fff;box-shadow: none;font-weight: 600;color:#7f7f7f;">
-                                            တီဗွီလိုင်းများ
-                                        </button>
-                                        <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/dhammcircle.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဓမ္မရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/newchannel.png" style="width:30%;"
-                                                            class="img-fluid pr-3">သတင်းရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="https://i.ibb.co/zXqs8nL/bslogo.png" style="width:30%;"
-                                                            class="img-fluid pr-3">အားကစားရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/profile.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဗဟုသုတရုပ်သံလိုင်း</a>
+                <nav class="navbar">
+                    <div class="wrapper d-flex space-between justify-content align-items">
+                        <div class="navbar_left">
+                            <a href="#" data-toggle="sidebar-colapse" class="d-flex align-items-center">
+                                <div class="d-flex w-100 justify-content-start align-items-center">
+                                    <i class="fa fa-bars navbar_left_hamburger text-dark" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <img src="/img/logo.png" alt="youtube" class="navbar_left_logo"
+                                style="width: 150px !important;height: 27px !important;margin-top: -5px !important;">
+                        </div>
+                        <div class="navbar_center">
+                            <i class="fa fa-arrow-left navbar_center_arrow text-dark" aria-hidden="true"></i>
+                            <input type="text" class="navbar_center_input" placeholder="Search">
+                            <button class="navbar_center_search-btn"><i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
+                        </div>
 
-                                                </div>
-                                                <div class="col-4">
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/education.png" style="width:30%;"
-                                                            class="img-fluid pr-3">သမိုင်းရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="https://i.ibb.co/WcZszNB/naylalogo.png"
-                                                            style="width:30%;"
-                                                            class="img-fluid pr-3">ဗေဒင်ရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="https://i.ibb.co/CM4CQfm/tllogo.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ပညာရေးရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/health.jpg" style="width:30%;"
-                                                            class="img-fluid pr-3">ကျန်းမာရေးရုပ်သံလိုင်း</a>
-                                                </div>
-                                                <div class="col-4">
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/starchannel_logo.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဖျော်ဖြေရေးရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/technology.png" style="width:30%;"
-                                                            class="img-fluid pr-3">နည်းပညာရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/gaming.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဂိမ်းရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img src="/img/life.png"
-                                                            style="width:30%;"
-                                                            class="img-fluid pr-3">ဘဝနေထိုင်မှုရုပ်သံလိုင်း</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
+                        <div class="navbar_right">
+                            <i class="fa fa-search navbar_right_icon text-dark" aria-hidden="true"></i>
+                            <i class="fa fa-video-camera navbar_right_icon text-dark" aria-hidden="true"></i>
+                            <button class="btn btn-sm btn-danger">Subscribe</button>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
 
-    <!--   Page Title Starts Here -->
-    <div class="page-nav no-margin row">
-        <div class="container">
-            <div class="row">
-                <h2>နေ့စဉ်သတင်းများ</h2>
-                <ul>
-                    <li> <a href="index.html"><i class="fas fa-home"></i> ပင်မစာမျက်နှာ</a></li>
-                    <li><i class="fas fa-angle-double-right"></i> နေ့စဉ်သတင်းများ</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Trending Starts Here -->
-    <div class="treanding-video container-fluid">
-        <div class="container">
-            <div class="row no-margin mt-3">
-                <img src="img/news.png" style="width: 30px;height: 30px; margin-right: 8px;"><span
-                    class="pb-2 mt-1 bg-white"
-                    style="font-size: 12px !important;"><strong>နေ့စဉ်သတင်းများ</strong></span>
-            </div>
-            <div class="video-row row">
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/seikwinsapawe-pyitwinthtintomyaa_1591080921.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/ameyaikanmawde-kinsaewulanskiha-bahamaitmha-anayuyain_1591076087.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/zunl-3-yaetne-7yaetthathmimyaaatwet-minglaakhapeasiasin_1591161567.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/seikthetthakhwngat-tyaataw_1591161155.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/zunl-3-yaetne-7yaetthathmimyaaatwet-minglaakhapeasiasin_1591161567.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/video-games-stin-titawinkhethu-yaatpaatbaeya_1591090159.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/leyainpyaantweyaemulasko-titawinkhethu-yaoetnyinawin_1590819612.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/seikwinsapawe-pyitwinthtintomyaa_1591080921.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-                    <div class="video-card">
-                        <a href="single.html">
-                            <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-ngwekyelelhenhonnhngat-yawheenhonmyaa_1591087129.jpg"
-                                alt="">
-
-                            <div class="row details no-margin">
-                                <div class="post-meta">
-                                    <div class="wrapper">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-6 col-6 no-padding left mt-2">
-                                    <i class="far fa-eye"></i>
-                                    <span>3,241,234</span>
-                                </div>
-                                <div class="col-md-6 col-6 no-padding right mt-2">
-
-                                    <i class="far fa-comments"></i>
-                                    <span>3,241,234</span>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- start footer -->
-    <div class="footer-bottom-area bg-dark-light section-padding-sm pt-5 pb-5 mt-5">
-        <div class="container">
-            <div class="row widgets footer-widgets">
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-about">
-                        <h5 class="widget-title">About Us</h5>
-                        <img src="img/logo.png" alt="" style="width: 80%;margin-left: -5px;">
-                        <p class="pt-3">Star Channel TV အစီအစဉ်ဆိုသည်မှာ တစ်နေရာတည်းမှာ စိတ်ဝင်စားဖွယ်
-                            တီဗီအစီအစဉ်များကို နေ့စဉ်တင်ဆက်ပေးမဲ့ ဝန်ဆောင်မှုတစ်ခုဖြစ်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-quick-links">
-                        <h5 class="widget-title">Useful Link</h5>
-                        <ul>
-                            <li><a href="index.html">ပင်မစာမျက်နှာ</a></li>
-                            <li><a href="daily.html">နေ့စဉ်သတင်းများ</a></li>
-                            <li><a href="popular.html">ပေါ်ပြူလာ ဗွီဒီယိုများ</a></li>
-                            <li><a href="movie.html">ရုပ်ရှင်များ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-quick-links">
-                        <h5 class="widget-title">Customer Service</h5>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Promotion Page</a></li>
-                            <li><a href="#">Application</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-contact">
-                        <h5 class="widget-title">Contact Us</h5>
-                        <ul>
-                            <li class="address">
-                                <span class="icon"><i class="fa fa-map-marker"></i></span>
-                                <p>Building C, Room 201, Tha Zin Min Housing, Thingungyun Tsp, Yangon, Myanmar </p>
-                            </li>
-                            <li class="phone">
-                                <span class="icon"><i class="fa fa-phone"></i></span>
-                                <p><a href="#" style="color:#13bfb1">09 898 876 787</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- full -->
-            <ul class="list-unstyled list-inline social text-center pt-5" data-aos="fade-up">
-                <li class="list-inline-item"><a href="https://www.facebook.com/StarChannelTV9" class="foot_icon"><i
-                            class="fab fa-facebook-square"></i></a>
+    <!-- Bootstrap row -->
+    <div class="row" id="body-row">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block parent-sidebar">
+            <ul class="list-group child">
+                <!-- Separator with title -->
+                <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                    <small>MAIN MENU</small>
                 </li>
-                <li class="list-inline-item"><a href="#" class="foot_icon"><i class="fab fa-twitter-square"></i></a>
+                <!-- /END Separator -->
+                <!-- Menu with submenu -->
+                 <a href="index.html" class="bg-dark list-group-item list-group-item-action">
+                     <div class="d-flex w-100 justify-content-start align-items-center">
+                         <img src="/img/news.png" class="img-fluid">
+                         <span class="menu-collapsed ml-3" style="font-size:15px;">ပင်မစာမျက်နှာ</span>
+                     </div>
+                 </a>
+                <a href="daily.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/news.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">နေ့စဉ်သတင်းများ</span>
+                    </div>
+                </a>
+                <a href="popular.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/fire.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ပေါ်ပြူလာ ဗွီဒီယိုများ</span>
+                    </div>
+                </a>
+                <a href="movie.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/film.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ရုပ်ရှင်များ</span>
+                    </div>
+                </a>
+                <!-- Separator with title -->
+                <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                    <small>တီဗွီလိုင်းများ</small>
                 </li>
-                <li class="list-inline-item"><a href="#" class="foot_icon"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC7hGwVmOtuAW9w7K2h0OXMg"
-                        class="foot_icon"><i class="fab fa-youtube"></i></a></li>
-
+                <!-- /END Separator -->
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/dhammcircle.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ဓမ္မရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/newchannel.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">သတင်းရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="http://ballonestar.com/img/bslogo.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">အားကစားရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/profile.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ဗဟုသုတရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/education.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">သမိုင်းရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/nayla.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ဗေဒင်ရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/tatlan.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ပညာရေးရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/health.jpg" style="" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ကျန်းမာရေးရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/starchannel_logo.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ဖျော်ဖြေရေးရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/technology.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">နည်းပညာရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/gaming.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ဂိမ်းရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="/img/life.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:15px;">ဘဝနေထိုင်မှုရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
             </ul>
-            <p class="text-center">Copyright @2020 | Designed With by <a href="https://www.htut.com/"
-                    style="color:#13bfb1">Htut
-                    Company</a></p>
         </div>
+        <!-- MAIN -->
+        <div class="col parent">
+            <div class="child">
+                <!--   Page Title Starts Here -->
+                <div class="page-nav no-margin row">
+                    <div class="container">
+                        <div class="row">
+                            <h2>နေ့စဉ်သတင်းများ</h2>
+                            <ul>
+                                <li> <a href="index.html"><i class="fas fa-home"></i> ပင်မစာမျက်နှာ</a></li>
+                                <li><i class="fas fa-angle-double-right"></i> နေ့စဉ်သတင်းများ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Trending Starts Here -->
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row no-margin mt-3">
+                            <img src="img/news.png" style="width: 30px;height: 30px; margin-right: 8px;"><span
+                                class="pb-2 mt-1 bg-white"
+                                style="font-size: 12px !important;"><strong>နေ့စဉ်သတင်းများ</strong></span>
+                        </div>
+                        <div class="video-row row">
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yaankon-bankawet-yaankon-cargo-lekyawinkhyaisinpyesawe-ste-pyitwinthtinmyaa_1591263246.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/aasainnekyepwngataozeyae-pawin-10thantanaeinne8theintan-mawtawkamyaaakyawin_1591241207.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/ameyaikanmawde-kinsaewulanskiha-bahamaitmha-anayuyain_1590827973.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/alolotaw-maenoinpabau-tyaataw_1590736562.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/mankhyaetstamhaakhyaawkoinkhete-baasilonakyaawetyaointitpwngat-thomhok-gyayaatpike_1591268167.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yaankon-bankawet-yaankon-cargo-lekyawinkhyaisinpyesawe-ste-pyitwinthtinmyaa_1591263246.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/aasainnekyepwngataozeyae-pawin-10thantanaeinne8theintan-mawtawkamyaaakyawin_1591241207.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/ameyaikanmawde-kinsaewulanskiha-bahamaitmha-anayuyain_1590827973.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/alolotaw-maenoinpabau-tyaataw_1590736562.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/mankhyaetstamhaakhyaawkoinkhete-baasilonakyaawetyaointitpwngat-thomhok-gyayaatpike_1591268167.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                                <div class="video-card">
+                                    <a href="single.html">
+                                        <img src="https://console.starchannel.tv/storage/uploads/images/yneatwet-pyitwinthtintomyaa_1590745960.jpg"
+                                            alt="">
+
+                                        <div class="row details no-margin">
+                                            <div class="post-meta">
+                                                <div class="wrapper">
+                                                    <p class="char-limit">
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                        မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding left mt-2">
+                                                <i class="far fa-eye"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+                                            <div class="col-md-6 col-6 no-padding right mt-2">
+
+                                                <i class="far fa-comments"></i>
+                                                <span>3,241,234</span>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Col END -->
     </div>
-    <!-- end footer -->
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
 <script src="assets/js/script.js"></script>
+<script>
+    // Hide submenus
+    $('#body-row .collapse').collapse('hide');
 
+    // Collapse/Expand icon
+    $('#collapse-icon').addClass('fa-angle-double-left');
+
+    // Collapse click
+    $('[data-toggle=sidebar-colapse]').click(function () {
+        SidebarCollapse();
+    });
+
+    function SidebarCollapse() {
+        $('.menu-collapsed').toggleClass('d-none');
+        $('.sidebar-submenu').toggleClass('d-none');
+        $('.submenu-icon').toggleClass('d-none');
+        $('#sidebar-container').toggleClass('sidebar-expanded sidebar-collapsed');
+
+        // Treating d-flex/d-none on separators with title
+        var SeparatorTitle = $('.sidebar-separator-title');
+        if (SeparatorTitle.hasClass('d-flex')) {
+            SeparatorTitle.removeClass('d-flex');
+        } else {
+            SeparatorTitle.addClass('d-flex');
+        }
+
+        // Collapse/Expand icon
+        $('#collapse-icon').toggleClass('fa-angle-double-left fa-angle-double-right');
+    }
+</script>
 
 </html>
