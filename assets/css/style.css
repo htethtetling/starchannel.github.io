@@ -289,7 +289,7 @@ body {
 
 /* Sidebar sizes when expanded and expanded */
 .sidebar-expanded {
-  width: 240px;
+  width: 250px;
 }
 
 .sidebar-collapsed {
@@ -787,7 +787,7 @@ header .nav-col .navbar-nav li {
 
 /* ===================================== Blog CSS ================================== */
 .video-blog {
-  padding: 50px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 940px) {
