@@ -30,8 +30,8 @@
                         </div>
                         <div class="navbar_center">
                             <i class="fa fa-arrow-left navbar_center_arrow text-dark" aria-hidden="true"></i>
-                            <input type="text" class="navbar_center_input" placeholder="Search">
-                            <button class="navbar_center_search-btn"><i class="fa fa-search"
+                               <input type="text" id="myInput" class="navbar_center_input" placeholder="Search">
+                            <button class="navbar_center_search-btn" id="titleBtn"><i class="fa fa-search"
                                     aria-hidden="true"></i></button>
                         </div>
 
@@ -324,7 +324,6 @@
         </div>
         <!-- Main Col END -->
     </div>
-</body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -360,5 +359,15 @@
         $('#collapse-icon').toggleClass('fa-angle-double-left fa-angle-double-right');
     }
 </script>
+<script>
+    $(document).ready(function () {
+        // Get value on button click and show alert
+        $("#titleBtn").click(function () {
+            var str = $("#myInput").val();
+            alert(str);
+        });
+    });
+</script>
+</body>
 
 </html>

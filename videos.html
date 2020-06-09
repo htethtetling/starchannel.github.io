@@ -20,8 +20,8 @@
             <div class="container-fluid">
                 <div class="row nav-row">
                     <div class="col-md-3 logo">
-                       <a href="index.html"><img src="img/logo.png" alt=""
-                               style="width: 80%;margin-left: 36px; margin-top: 12px;"></a>
+                        <a href="index.html"><img src="img/logo.png" alt=""
+                                style="width: 80%;margin-left: 36px; margin-top: 12px;"></a>
                     </div>
                     <div class="col-md-9 nav-col">
                         <nav class="navbar navbar-expand-lg navbar-light" style="float:right;">
@@ -321,12 +321,50 @@
         </div>
     </div>
     <!-- end footer -->
-</body>
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Hide submenus
+        $('#body-row .collapse').collapse('hide');
 
+        // Collapse/Expand icon
+        $('#collapse-icon').addClass('fa-angle-double-left');
+
+        // Collapse click
+        $('[data-toggle=sidebar-colapse]').click(function () {
+            SidebarCollapse();
+        });
+
+        function SidebarCollapse() {
+            $('.menu-collapsed').toggleClass('d-none');
+            $('.sidebar-submenu').toggleClass('d-none');
+            $('.submenu-icon').toggleClass('d-none');
+            $('#sidebar-container').toggleClass('sidebar-expanded sidebar-collapsed');
+
+            // Treating d-flex/d-none on separators with title
+            var SeparatorTitle = $('.sidebar-separator-title');
+            if (SeparatorTitle.hasClass('d-flex')) {
+                SeparatorTitle.removeClass('d-flex');
+            } else {
+                SeparatorTitle.addClass('d-flex');
+            }
+
+            // Collapse/Expand icon
+            $('#collapse-icon').toggleClass('fa-angle-double-left fa-angle-double-right');
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Get value on button click and show alert
+            $("#titleBtn").click(function () {
+                var str = $("#myInput").val();
+                alert(str);
+            });
+        });
+    </script>
+</body>
 
 </html>
