@@ -348,14 +348,14 @@ body {
 
 .parent-sidebar {
   /* width: 330px; */
-  height: 550px;
+  height: 560px;
   overflow: hidden;
   text-align: justify;
 }
 
 .parent {
   /* width: 330px; */
-  height: 610px;
+  height: 560px;
   overflow: hidden;
   text-align: justify;
 }

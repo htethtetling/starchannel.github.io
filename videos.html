@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>StarChannel</title>
-    <link rel="icon" href="img/starchannel_logo.png">
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="icon" href="https://i.ibb.co/9h7z7C3/starchannel-logo.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -15,312 +14,407 @@
 
 <body>
     <!--Header Starts Here -->
-    <header class="container-fluid ">
+    <header class="container-fluid">
         <div id="menu-jk" class="header-bottom">
             <div class="container-fluid">
-                <div class="row nav-row">
-                    <div class="col-md-3 logo">
-                        <a href="index.html"><img src="img/logo.png" alt=""
-                                style="width: 80%;margin-left: 36px; margin-top: 12px;"></a>
-                    </div>
-                    <div class="col-md-9 nav-col">
-                        <nav class="navbar navbar-expand-lg navbar-light" style="float:right;">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">ပင်မစာမျက်နှာ
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="daily.html">နေ့စဉ်သတင်းများ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="popular.html">ပေါ်ပြူလာ ဗွီဒီယိုများ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="movie.html">ရုပ်ရှင်များ</a>
-                                    </li>
-                                    <!-- <li class="nav-item">
-                                        <a class="nav-link" href="videos.html">တီဗွီလိုင်းများ</a>
-                                    </li> -->
-                                    <li class="dropdown">
-                                        <button class="btn dropdown-toggle" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                            style="border: 0px;background-color: #fff;box-shadow: none;font-weight: 600;color:#7f7f7f;">
-                                            တီဗွီလိုင်းများ
-                                        </button>
-                                        <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/dhammcircle.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဓမ္မရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/newchannel.png" style="width:30%;"
-                                                            class="img-fluid pr-3">သတင်းရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="https://i.ibb.co/zXqs8nL/bslogo.png" style="width:30%;"
-                                                            class="img-fluid pr-3">အားကစားရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/profile.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဗဟုသုတရုပ်သံလိုင်း</a>
+                <nav class="navbar">
+                    <div class="wrapper d-flex space-between justify-content align-items">
+                        <div class="navbar_left">
+                            <a href="#" data-toggle="sidebar-colapse" class="d-flex align-items-center">
+                                <div class="d-flex w-100 justify-content-start align-items-center">
+                                    <i class="fa fa-bars navbar_left_hamburger text-dark" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="index.html"><img src="https://i.ibb.co/2tN5g84/logo.png" alt="youtube"
+                                    class="navbar_left_logo" style="width: 150px !important;height: 27px !important;margin-top: -5px
+                                !important;"></a>
+                        </div>
+                        <div class="navbar_center">
+                            <i class="fa fa-arrow-left navbar_center_arrow text-dark" aria-hidden="true"></i>
+                            <input type="text" id="myInput" class="navbar_center_input" placeholder="Search">
+                            <button class="navbar_center_search-btn" id="titleBtn"><i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
+                        </div>
 
-                                                </div>
-                                                <div class="col-4">
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/education.png" style="width:30%;"
-                                                            class="img-fluid pr-3">သမိုင်းရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="https://i.ibb.co/WcZszNB/naylalogo.png"
-                                                            style="width:30%;"
-                                                            class="img-fluid pr-3">ဗေဒင်ရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="https://i.ibb.co/CM4CQfm/tllogo.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ပညာရေးရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/health.jpg" style="width:30%;"
-                                                            class="img-fluid pr-3">ကျန်းမာရေးရုပ်သံလိုင်း</a>
-                                                </div>
-                                                <div class="col-4">
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/starchannel_logo.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဖျော်ဖြေရေးရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/technology.png" style="width:30%;"
-                                                            class="img-fluid pr-3">နည်းပညာရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img
-                                                            src="/img/gaming.png" style="width:30%;"
-                                                            class="img-fluid pr-3">ဂိမ်းရုပ်သံလိုင်း</a>
-                                                    <a class="dropdown-item" href="tvline.html"><img src="/img/life.png"
-                                                            style="width:30%;"
-                                                            class="img-fluid pr-3">ဘဝနေထိုင်မှုရုပ်သံလိုင်း</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
+                        <div class="navbar_right">
+                            <i class="fa fa-search navbar_right_icon text-dark" aria-hidden="true"></i>
+                            <i class="fa fa-video-camera navbar_right_icon text-dark" aria-hidden="true"></i>
+                            <button class="btn btn-sm btn-danger">Subscribe</button>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
-    <!--Slider Starts Here -->
-    <!-- Video Blog Starts Here -->
-    <div class="container-fluid video-blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="row video-cover">
-                        <iframe src="https://player.vimeo.com/video/425371013" width="100%" height="408" frameborder="0"
-                            allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-                        <h4 class="mt-5 text-dark">မိန်းကလေးတွေရဲ့ အသည်းနှလုံးကို ဖမ်းစားထားတဲ့ Lee Min Ho
-                        </h4>
-                        <hr>
-                        <div class="row" style="width:100%">
-                            <div class="col-6" style="margin-top: -5px;">
-                                <p>Posted on: 2018</p>
-                            </div>
-                            <!-- subscribe -->
-                            <!-- <div class="col-6 text-right">
-                                <button class="btn btn-sm btn-danger">Subscribe</button>
-                            </div> -->
-                        </div>
-                        <!-- like share comment -->
-                        <!-- <div class="counts mt-3">
-                            <i class="far fa-thumbs-up pr-3"></i> <span class="pr-3">3,241,234</span>
-                            <i class="far fa-thumbs-down pr-3"></i><span class="pr-3">3,241,234</span>
-                            <i class="far fa-comments pr-3"></i> <span class="pr-3">3,241,234</span>
-                            <i class="fas fa-share pr-3"></i><span class="pr-3">3,241,234</span>
-                        </div> -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada purus sit
-                            amet quam vehicula Sed ac fermentum leo.</p>
-
-
-                        <div>
-                            <p class="pb-0 bg-white">
-                                <span class="fa fa-volume-up"></span> Director : Aung Myat
-                            </p>
-                            <p class="pb-0 bg-white">
-                                <i class="fas fa-pen-alt"></i>Actors : A Kyi Taw
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="row no-margin" style="border-bottom: 1px solid #e5e5e5;">
-                        <img src="img/fire.png" style="width: 22px;height: 25px;margin-right: 8px;"><span
-                            class="pb-2 mt-1 bg-white"
-                            style="font-size: 12px !important;"><strong>ဗွီဒီယိုများ</strong></span>
-                    </div>
-
-                    <div class="contri-bghy mt-3">
-                        <div class="image">
-                            <a href="single.html"><img
-                                    src="https://console.starchannel.tv/storage/uploads/images/lepayatkhyinsaoinyaa-thikawinsyaa_1590830524.jpg"
-                                    alt=""></a>
-                        </div>
-                        <div class="detail">
-                            <a href="single.html">
-                                <div class="post-meta">
-                                    <div class="wrapper" style="width:180px !important;">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </a>
-                            <span class="pt-3">Posted on: 2018</span>
-                        </div>
-                    </div>
-
-                    <div class="contri-bghy mt-3">
-                        <div class="image">
-                            <a href="single.html"><img
-                                    src="https://console.starchannel.tv/storage/uploads/images/zunl-3-yaetne-7yaetthathmimyaaatwet-minglaakhapeasiasin_1591161567.jpg"
-                                    alt=""></a>
-                        </div>
-                        <div class="detail">
-                            <a href="single.html">
-                                <div class="post-meta">
-                                    <div class="wrapper" style="width:180px !important;">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </a>
-                            <span class="pt-3">Posted on: 2018</span>
-                        </div>
-                    </div>
-
-                    <div class="contri-bghy mt-3">
-                        <div class="image">
-                            <a href="single.html"><img
-                                    src="https://console.starchannel.tv/storage/uploads/images/thimhatpaweyaa-apayapaya_1590735685.jpg"
-                                    alt=""></a>
-                        </div>
-                        <div class="detail">
-                            <a href="single.html">
-                                <div class="post-meta">
-                                    <div class="wrapper" style="width:180px !important;">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </a>
-                            <span class="pt-3">Posted on: 2018</span>
-                        </div>
-                    </div>
-
-                    <div class="contri-bghy mt-3">
-                        <div class="image">
-                            <a href="single.html"><img
-                                    src="https://console.starchannel.tv/storage/uploads/images/saethimhuakyawin_1590750182.jpg"
-                                    alt=""></a>
-                        </div>
-                        <div class="detail">
-                            <a href="single.html">
-                                <div class="post-meta">
-                                    <div class="wrapper" style="width:180px !important;">
-                                        <p class="char-limit">
-                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
-                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </a>
-                            <span class="pt-3">Posted on: 2018</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- start footer -->
-    <div class="footer-bottom-area bg-dark-light section-padding-sm pt-5 pb-5 mt-5">
-        <div class="container">
-            <div class="row widgets footer-widgets">
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-about">
-                        <h5 class="widget-title">About Us</h5>
-                        <img src="img/logo.png" alt="" style="width: 80%;margin-left: -5px;">
-                        <p class="pt-3">Star Channel TV အစီအစဉ်ဆိုသည်မှာ တစ်နေရာတည်းမှာ စိတ်ဝင်စားဖွယ်
-                            တီဗီအစီအစဉ်များကို နေ့စဉ်တင်ဆက်ပေးမဲ့ ဝန်ဆောင်မှုတစ်ခုဖြစ်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-quick-links">
-                        <h5 class="widget-title">Useful Link</h5>
-                        <ul>
-                            <li><a href="index.html">ပင်မစာမျက်နှာ</a></li>
-                            <li><a href="daily.html">နေ့စဉ်သတင်းများ</a></li>
-                            <li><a href="popular.html">ပေါ်ပြူလာ ဗွီဒီယိုများ</a></li>
-                            <li><a href="movie.html">ရုပ်ရှင်များ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-quick-links">
-                        <h5 class="widget-title">Customer Service</h5>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Promotion Page</a></li>
-                            <li><a href="#">Application</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up">
-                    <div class="single-widget widget-contact">
-                        <h5 class="widget-title">Contact Us</h5>
-                        <ul>
-                            <li class="address">
-                                <span class="icon"><i class="fa fa-map-marker"></i></span>
-                                <p>Building C, Room 201, Tha Zin Min Housing, Thingungyun Tsp, Yangon, Myanmar </p>
-                            </li>
-                            <li class="phone">
-                                <span class="icon"><i class="fa fa-phone"></i></span>
-                                <p><a href="#" style="color:#13bfb1">09 898 876 787</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- full -->
-            <ul class="list-unstyled list-inline social text-center pt-5" data-aos="fade-up">
-                <li class="list-inline-item"><a href="https://www.facebook.com/StarChannelTV9" class="foot_icon"><i
-                            class="fab fa-facebook-square"></i></a>
+    <!-- Bootstrap row -->
+    <div class="row" id="body-row">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block"
+            style="min-height: 0vh !important;height: 565px;overflow: hidden;text-align: justify;">
+            <ul class="list-group child">
+                <!-- Separator with title -->
+                <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                    <small>MAIN MENU</small>
                 </li>
-                <li class="list-inline-item"><a href="#" class="foot_icon"><i class="fab fa-twitter-square"></i></a>
+                <!-- /END Separator -->
+                <!-- Menu with submenu -->
+                <a href="index.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/NxzWgYt/house.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ပင်မစာမျက်နှာ</span>
+                    </div>
+                </a>
+                <a href="daily.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/gRH11Pn/news.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">နေ့စဉ်သတင်းများ</span>
+                    </div>
+                </a>
+                <a href="popular.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/W0z6McR/fire.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ပေါ်ပြူလာ ဗွီဒီယိုများ</span>
+                    </div>
+                </a>
+                <a href="movie.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/4TDnjm4/film.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ရုပ်ရှင်များ</span>
+                    </div>
+                </a>
+                <!-- Separator with title -->
+                <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                    <small>တီဗွီလိုင်းများ</small>
                 </li>
-                <li class="list-inline-item"><a href="#" class="foot_icon"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC7hGwVmOtuAW9w7K2h0OXMg"
-                        class="foot_icon"><i class="fab fa-youtube"></i></a></li>
-
+                <!-- /END Separator -->
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/bvL5g6p/dhammcircle.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ဓမ္မရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/nLMCBG3/newchannel.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">သတင်းရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/2qR14y2/bslogo.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">အားကစားရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/84TmBpZ/profile.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ဗဟုသုတရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/wSbfDn1/education.png" class="img-fluid">
+                        <span class="menu-collapsed ml-2" style="font-size:14px;">သမိုင်းကြောင်းများရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/BsPJXyr/nayla.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ဗေဒင်ရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/QvkMRY8/tatlan.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ပညာရေးရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/K2BH85Q/health.jpg" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ကျန်းမာရေးရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/9h7z7C3/starchannel-logo.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ဖျော်ဖြေရေးရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/vH1rMmb/technology.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">နည်းပညာရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/F7TkmZt/gaming.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ဂိမ်းရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
+                <a href="tvline.html" class="bg-dark list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <img src="https://i.ibb.co/Sdq9D54/life.png" class="img-fluid">
+                        <span class="menu-collapsed ml-3" style="font-size:14px;">ဘဝနေထိုင်မှုရုပ်သံလိုင်း</span>
+                    </div>
+                </a>
             </ul>
-            <p class="text-center">Copyright @2020 | Designed by <a href="https://www.htut.com/"
-                    style="color:#13bfb1">Htut
-                    Company</a></p>
         </div>
+        <!-- MAIN -->
+        <div class="col">
+
+            <!-- Video Blog Starts Here -->
+            <div class="container-fluid video-blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mb-3" style="height: 500px;overflow: hidden;text-align: justify;">
+                            <div class="child video-cover">
+                                <iframe src="https://player.vimeo.com/video/425371013" width="100%" height="408"
+                                    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                <h4 class="text-dark" style="margin-top: 20px;">မိန်းကလေးတွေရဲ့
+                                    အသည်းနှလုံးကို
+                                    ဖမ်းစားထားတဲ့ Lee Min Ho
+                                </h4>
+                                <div class="row" style="width:100%;border-top:1px solid #e5e5e5;margin-left: 0px;">
+                                    <div class="col-6" style="margin-top: -5px;">
+                                        <p style="margin-left: -15px;">Posted on: 2018</p>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <!-- <button class="btn btn-sm btn-danger">Subscribe</button> -->
+                                    </div>
+                                </div>
+                                <h5 class="pr-2 pb-0 bg-white mt-3">
+                                    <a href="#" class="bg-white" style="color: #b29a51;font-size:17px;"><img
+                                            src="https://i.ibb.co/x2TqdF3/video.png"
+                                            style="width: 22px;height: 25px;margin-right: 8px;">နေ့စဉ်သတင်းများ</a>
+                                    ,
+                                    <a href="#" class="bg-white" style="color: #b29a51;font-size:17px;"><img
+                                            src="https://i.ibb.co/x2TqdF3/video.png"
+                                            style="width: 22px;height: 25px;margin-right: 8px;">ပေါ်ပြူလာ
+                                        ဗွီဒီယိုများ</a>
+                                </h5>
+                                <!-- <div class="counts mt-3">
+                                    <i class="far fa-thumbs-up pr-3"></i> <span class="pr-3">3,241,234</span>
+                                    <i class="far fa-thumbs-down pr-3"></i><span class="pr-3">3,241,234</span>
+                                    <i class="far fa-comments pr-3"></i> <span class="pr-3">3,241,234</span>
+                                    <i class="fas fa-share pr-3"></i><span class="pr-3">3,241,234</span>
+                                </div> -->
+                                <p style="font-size: 17px;color: #000;">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit. Vivamus malesuada purus sit
+                                    amet quam vehicula Sed ac fermentum leo.</p>
+
+
+                                <div>
+                                    <p class="pb-0 bg-white">
+                                        <span class="fa fa-volume-up"></span> Director : Aung Myat
+                                    </p>
+                                    <p class="pb-0 bg-white">
+                                        <i class="fas fa-pen-alt"></i>Actors : A Kyi Taw
+                                    </p>
+                                </div>
+                                <!-- <div class="buttons">
+                                        <button class="btn btn-sm btn-primary">View Detail</button>
+                                        <button class="btn btn-sm btn-danger">Watch Now</button>
+                                    </div> -->
+
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="height: 500px;overflow: hidden;text-align: justify;">
+                            <div class="row no-margin" style="border-bottom: 1px solid #e5e5e5;">
+                                <!-- <h6><i class="fas fa-book"></i> Related Videos</h6> -->
+                                <img src="img/fire.png" style="width: 22px;height: 25px;margin-right: 8px;"><span
+                                    class="pb-2 mt-1 bg-white"
+                                    style="font-size: 12px !important;"><strong>ဗွီဒီယိုများ</strong></span>
+                            </div>
+                            <div style="height: 500px;overflow: hidden;text-align: justify;">
+                                <div class="child">
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/lepayatkhyinsaoinyaa-thikawinsyaa_1590830524.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/zunl-3-yaetne-7yaetthathmimyaaatwet-minglaakhapeasiasin_1591161567.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/thimhatpaweyaa-apayapaya_1590735685.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/saethimhuakyawin_1590750182.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/lepayatkhyinsaoinyaa-thikawinsyaa_1590830524.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/zunl-3-yaetne-7yaetthathmimyaaatwet-minglaakhapeasiasin_1591161567.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/thimhatpaweyaa-apayapaya_1590735685.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="contri-bghy mt-3">
+                                        <div class="image">
+                                            <a href="single.html"><img
+                                                    src="https://console.starchannel.tv/storage/uploads/images/saethimhuakyawin_1590750182.jpg"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a href="single.html">
+                                                <div class="post-meta">
+                                                    <div class="wrapper" style="width:180px !important;">
+                                                        <p class="char-limit">
+                                                            တိုင်းရင်းဆေးဆရာကြီးဦးရန်အောင်မှ အွန်လိုင်းပေါ်က
+                                                            မေးမြန်းလာတဲ့ လေဖြတ်ခြင်းဆိုင်ရာ သိကောင်းစရာကို
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </a>
+                                            <span class="pt-3">Posted on: 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Main Col END -->
     </div>
-    <!-- end footer -->
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
